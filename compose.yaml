@@ -9,7 +9,7 @@ services:
   #   volumes:
   #     - /var/lib/internetbanking
   mobilebanking:
-    image: soumya824/mobilebanking-t
+    image: soumya824/mobilebanking
     ports:
       - "82:80"
     deploy:
