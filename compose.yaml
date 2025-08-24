@@ -1,13 +1,13 @@
 version: '3.8'
 services:
-  internetbanking:
-    image: soumya824/internetbanking-dh-image
-    ports:
-      - "81:80"
-    deploy:
-      replicas: 3
-    volumes:
-      - /var/lib/internetbanking
+  # internetbanking:
+  #   image: soumya824/internetbanking-dh-image
+  #   ports:
+  #     - "81:80"
+  #   deploy:
+  #     replicas: 3
+  #   volumes:
+  #     - /var/lib/internetbanking
   mobilebanking:
     image: soumya824/mobilebanking-dh-image
     ports:
@@ -16,19 +16,19 @@ services:
       replicas: 3
     volumes:
       - /var/lib/mobilebanking
-  insurance:
-    image: soumya824/insurance-dh-image
-    ports:
-      - "83:80"
-    deploy:
-      replicas: 3
-    volumes:
-      - /var/lib/insurance
-  loan:
-    image: soumya824/loans-dh-image
-    ports:
-      - "84:80"
-    deploy:
-      replicas: 3
-    volumes:
-      - /var/lib/loan
+  # insurance:
+  #   image: soumya824/insurance-dh-image
+  #   ports:
+  #     - "83:80"
+  #   deploy:
+  #     replicas: 3
+  #   volumes:
+  #     - /var/lib/insurance
+  # loan:
+  #   image: soumya824/loans-dh-image
+  #   ports:
+  #     - "84:80"
+  #   deploy:
+  #     replicas: 3
+  #   volumes:
+  #     - /var/lib/loan
